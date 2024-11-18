@@ -81,9 +81,9 @@
 
         layer_4 {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3      &kp F4             &kp F5             &kp F8                &kp F9                &kp F10          &kp F11  &kp F12  &trans
-&trans  &trans  &trans  &trans      &none              &kp F6             &kp F7                &none                 &none            &none    &none    &trans
-&trans  &trans  &trans  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp PRINTSCREEN  &none    &none    &trans
+&trans  &kp F1  &kp F2  &kp F3      &kp F4             &kp F5             &kp F8                &kp F9                &kp F10  &kp F11  &kp F12          &trans
+&trans  &trans  &trans  &trans      &none              &kp F6             &kp F7                &none                 &none    &none    &kp PRINTSCREEN  &trans
+&trans  &trans  &trans  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none    &none    &none            &trans
                         &trans      &trans             &trans             &trans                &trans                &trans
             >;
         };
