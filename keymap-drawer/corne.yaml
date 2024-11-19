@@ -127,8 +127,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F
+  - $$mdi:keyboard-esc$$
   FN:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
