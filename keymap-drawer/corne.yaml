@@ -87,7 +87,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   SYMBOL:
-  - {type: held}
+  - {t: '$$mdi:keyboard-esc$$', type: held}
   - '!'
   - '@'
   - '#'
@@ -130,7 +130,7 @@ layers:
   - F
   - $$mdi:keyboard-esc$$
   FN:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - F1
   - F2
   - F3
