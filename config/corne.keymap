@@ -77,7 +77,7 @@
 &trans  &kp EXCL  &kp AT         &kp HASH   &kp DLLR   &kp PRCNT    &kp STAR  &kp LPAR  &kp RPAR   &kp UNDERSCORE  &kp PLUS   &kp BSPC
 &trans  &kp LEFT  &kp PAGE_UP    &kp RIGHT  &kp ENTER  &kp CARET    &kp AMPS  &kp UP    &kp LBKT   &kp RBKT        &kp COLON  &kp DQT
 &trans  &kp LEFT  &kp PAGE_DOWN  &kp RIGHT  &none      &kp PIPE     &kp LEFT  &kp DOWN  &kp RIGHT  &kp LT          &kp GT     &kp QMARK
-                                 &trans     &trans     &trans       &trans    &trans    &trans
+                                 &trans     &trans     &trans       &trans    &kp F     &kp ESC
             >;
         };
 
