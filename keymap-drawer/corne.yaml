@@ -38,9 +38,9 @@ layers:
   - {t: ., s: '>'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
-  - FN
-  - SYMBOL
+  - NUMBER
+  - {t: '$$mdi:keyboard-space$$', h: FN}
+  - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - $$mdi:keyboard-space$$
   - NUMBER
   NUMBER:
