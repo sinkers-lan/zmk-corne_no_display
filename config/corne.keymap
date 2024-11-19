@@ -55,10 +55,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESC  &kp NUMBER_1     &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp MINUS        &kp EQUAL      &kp BACKSPACE
-&trans   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ENTER     &kp NUMBER_6     &kp NUMBER_7  &kp UP        &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SEMICOLON  &kp SQT
-&trans   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LEFT_WIN  &kp BACKSLASH    &kp LEFT      &kp DOWN      &kp RIGHT       &kp COMMA        &kp PERIOD     &kp SLASH
-                                           &kp KP_NUMBER_0  &trans        &trans           &trans        &trans        &trans
+&kp ESC  &kp NUMBER_1     &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4   &kp NUMBER_5     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp MINUS        &kp EQUAL      &kp BACKSPACE
+&trans   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp BACKSPACE  &kp NUMBER_6     &kp NUMBER_7  &kp UP        &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SEMICOLON  &kp SQT
+&trans   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DELETE     &kp BACKSLASH    &kp LEFT      &kp DOWN      &kp RIGHT       &kp COMMA        &kp DOT        &kp SLASH
+                                           &kp KP_NUMBER_0  &kp ENTER      &kp KP_DOT       &trans        &trans        &trans
             >;
         };
 
@@ -79,13 +79,15 @@
             >;
         };
 
-        layer_4 {
+        F_layer {
             bindings = <
 &trans  &kp F1  &kp F2  &kp F3      &kp F4             &kp F5             &kp F8                &kp F9                &kp F10  &kp F11  &kp F12          &trans
 &trans  &trans  &trans  &trans      &none              &kp F6             &kp F7                &none                 &none    &none    &kp PRINTSCREEN  &trans
 &trans  &trans  &trans  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none    &none    &none            &trans
                         &trans      &trans             &trans             &trans                &trans                &trans
             >;
+
+            label = "FN";
         };
     };
 };
