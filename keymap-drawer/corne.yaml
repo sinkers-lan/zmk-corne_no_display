@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   QWERTY:
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: SYMBOL}
   - Q
   - W
   - E
@@ -37,7 +37,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:apple-keyboard-option$$', h: SYMBOL}
+  - $$mdi:apple-keyboard-option$$
   - NUMBER
   - FN
   - SYMBOL
@@ -87,7 +87,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   SYMBOL:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - '!'
   - '@'
   - '#'
@@ -123,7 +123,7 @@ layers:
   - <
   - '>'
   - '?'
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
