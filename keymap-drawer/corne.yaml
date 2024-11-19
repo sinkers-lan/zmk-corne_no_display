@@ -40,9 +40,9 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - FN
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - SYMBOL
   - $$mdi:keyboard-space$$
   - NUMBER
-  - SYMBOL
   NUMBER:
   - $$mdi:keyboard-esc$$
   - '1'
@@ -84,8 +84,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - KP DOT
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
@@ -126,9 +126,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   FN:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
