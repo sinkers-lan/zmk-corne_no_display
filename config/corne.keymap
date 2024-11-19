@@ -74,19 +74,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL  &kp AT         &kp HASH   &kp DLLR   &kp PRCNT    &kp STAR  &kp LPAR  &kp RPAR   &kp UNDERSCORE  &kp PLUS   &kp BSPC
-&trans  &kp LEFT  &kp PAGE_UP    &kp RIGHT  &kp ENTER  &kp CARET    &kp AMPS  &kp UP    &kp LBKT   &kp RBKT        &kp COLON  &kp DQT
-&trans  &kp LEFT  &kp PAGE_DOWN  &kp RIGHT  &none      &kp PIPE     &kp LEFT  &kp DOWN  &kp RIGHT  &kp LT          &kp GT     &kp QMARK
-                                 &trans     &trans     &trans       &trans    &kp F     &kp ESC
+&kp ESCAPE  &kp EXCL  &kp AT         &kp HASH   &kp DLLR   &kp PRCNT    &kp STAR  &kp LPAR  &kp RPAR   &kp UNDERSCORE  &kp PLUS   &kp BSPC
+&trans      &kp LEFT  &kp PAGE_UP    &kp RIGHT  &kp ENTER  &kp CARET    &kp AMPS  &kp UP    &kp LBKT   &kp RBKT        &kp COLON  &kp DQT
+&trans      &kp LEFT  &kp PAGE_DOWN  &kp RIGHT  &none      &kp PIPE     &kp LEFT  &kp DOWN  &kp RIGHT  &kp LT          &kp GT     &kp QMARK
+                                     &trans     &trans     &trans       &trans    &kp F     &kp ESC
             >;
         };
 
         F_layer {
             bindings = <
-&trans  &kp F1        &kp F2        &kp F3        &kp F4             &kp F5             &kp F8                &kp F9                &kp F10  &kp F11  &kp F12          &trans
-&trans  &out OUT_TOG  &out OUT_BLE  &out OUT_USB  &bt BT_CLR         &kp F6             &kp F7                &none                 &none    &none    &kp PRINTSCREEN  &trans
-&trans  &trans        &bt BT_SEL 0  &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none    &none    &none            &trans
-                                    &trans        &trans             &trans             &trans                &trans                &trans
+&kp ESCAPE  &kp F1        &kp F2        &kp F3        &kp F4             &kp F5             &kp F8                &kp F9                &kp F10  &kp F11  &kp F12          &trans
+&trans      &out OUT_TOG  &out OUT_BLE  &out OUT_USB  &bt BT_CLR         &kp F6             &kp F7                &none                 &none    &none    &kp PRINTSCREEN  &trans
+&trans      &trans        &bt BT_SEL 0  &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none    &none    &none            &trans
+                                        &trans        &trans             &trans             &trans                &trans                &trans
             >;
 
             label = "FN";
