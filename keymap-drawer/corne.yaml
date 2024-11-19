@@ -27,10 +27,10 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
   - Z
+  - {t: '`', s: '~'}
   - X
   - C
   - V
-  - {t: '`', s: '~'}
   - B
   - N
   - M
@@ -38,8 +38,8 @@ layers:
   - {t: ., s: '>'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-option$$
+  - NUMBER
   - FN
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - SYMBOL
   - $$mdi:keyboard-space$$
   - NUMBER
@@ -57,9 +57,9 @@ layers:
   - {t: '=', s: +}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP 4
-  - KP 5
-  - KP 6
+  - '4'
+  - '5'
+  - '6'
   - {t: '$$mdi:backspace$$', type: backspace}
   - '6'
   - '7'
@@ -69,9 +69,9 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP 7
-  - KP 8
-  - KP 9
+  - '7'
+  - '8'
+  - '9'
   - $$mdi:backspace-reverse-outline$$
   - {t: \, s: '|'}
   - $$mdi:arrow-left-bold$$
@@ -80,12 +80,12 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - KP 0
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '0'
+  - {t: '$$mdi:keyboard-return$$', type: held}
   - KP DOT
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
@@ -117,9 +117,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '|'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-left-bold$$
   - PgDn
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-right-bold$$
   - <
   - '>'
   - '?'
@@ -167,8 +167,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
