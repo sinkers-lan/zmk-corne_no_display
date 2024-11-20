@@ -64,8 +64,8 @@ layers:
   - '6'
   - '7'
   - $$mdi:arrow-up-bold$$
-  - '{'
-  - '}'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -107,8 +107,8 @@ layers:
   - ^
   - '&'
   - $$mdi:arrow-up-bold$$
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - '{'
+  - '}'
   - ':'
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -150,8 +150,8 @@ layers:
   - F6
   - F7
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
