@@ -57,9 +57,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESC  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp MINUS        &kp EQUAL      &kp BACKSPACE
-&trans   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSPACE  &kp NUMBER_6     &kp NUMBER_7  &kp UP        &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SEMICOLON  &kp SQT
-&trans   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DELETE     &kp BACKSLASH    &kp LEFT      &kp DOWN      &kp RIGHT       &kp COMMA        &kp DOT        &kp SLASH
+&kp ESC  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS  &kp EQUAL      &kp BACKSPACE
+&trans   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSPACE  &kp NUMBER_6     &kp NUMBER_7  &kp UP        &kp LBKT      &kp RBKT   &kp SEMICOLON  &kp SQT
+&trans   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DELETE     &kp BACKSLASH    &kp LEFT      &kp DOWN      &kp RIGHT     &kp COMMA  &kp DOT        &kp SLASH
                                      &kp NUMBER_0  &kp ENTER      &kp KP_DOT       &trans        &trans        &trans
             >;
         };
@@ -75,7 +75,7 @@
 
             bindings = <
 &kp ESCAPE  &kp EXCL  &kp AT         &kp HASH   &kp DLLR   &kp PRCNT    &kp STAR  &kp LPAR  &kp RPAR   &kp UNDERSCORE  &kp PLUS   &kp BSPC
-&trans      &kp LEFT  &kp PAGE_UP    &kp RIGHT  &kp ENTER  &kp CARET    &kp AMPS  &kp UP    &kp LBKT   &kp RBKT        &kp COLON  &kp DQT
+&trans      &kp LEFT  &kp PAGE_UP    &kp RIGHT  &kp ENTER  &kp CARET    &kp AMPS  &kp UP    &kp LBRC   &kp RBRC        &kp COLON  &kp DQT
 &trans      &kp LEFT  &kp PAGE_DOWN  &kp RIGHT  &none      &kp PIPE     &kp LEFT  &kp DOWN  &kp RIGHT  &kp LT          &kp GT     &kp QMARK
                                      &trans     &trans     &trans       &trans    &kp F     &kp ESC
             >;
@@ -83,9 +83,9 @@
 
         F_layer {
             bindings = <
-&kp ESCAPE  &kp F1        &kp F2        &kp F3        &kp F4             &kp F5             &kp F8                &kp F9                &kp F10           &kp F11            &kp F12          &trans
-&trans      &out OUT_TOG  &out OUT_BLE  &out OUT_USB  &bt BT_CLR         &kp F6             &kp F7                &none                 &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PRINTSCREEN  &trans
-&trans      &trans        &bt BT_SEL 0  &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none             &none              &none            &trans
+&kp ESCAPE  &kp F1        &kp F2        &kp F3        &kp F4             &kp F5             &kp F8                &kp F9                &kp F10  &kp F11  &kp F12          &trans
+&trans      &out OUT_TOG  &out OUT_BLE  &out OUT_USB  &bt BT_CLR         &kp F6             &kp F7                &none                 &none    &none    &kp PRINTSCREEN  &trans
+&trans      &trans        &bt BT_SEL 0  &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none    &none    &none            &trans
                                         &trans        &trans             &trans             &trans                &trans                &trans
             >;
 
