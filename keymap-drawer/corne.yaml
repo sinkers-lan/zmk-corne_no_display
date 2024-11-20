@@ -9,7 +9,7 @@ layers:
   - T
   - Y
   - U
-  - I
+  - {t: I, h: Ctl+ I}
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -31,7 +31,7 @@ layers:
   - X
   - C
   - V
-  - B
+  - {t: B, h: Ctl+ B}
   - N
   - M
   - {t: ',', s: <}
