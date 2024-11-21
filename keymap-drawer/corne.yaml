@@ -37,7 +37,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-space$$', h: LRFT HAND}
+  - {t: '$$mdi:keyboard-space$$', h: DIRECTION}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: FN}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
@@ -129,7 +129,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  LRFT HAND:
+  DIRECTION:
   - $$mdi:keyboard-esc$$
   - PgDn
   - $$mdi:arrow-up-bold$$
@@ -155,9 +155,9 @@ layers:
   - $$mdi:arrow-up-bold$$
   - PgUp
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '[', s: '{'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ']', s: '}'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
