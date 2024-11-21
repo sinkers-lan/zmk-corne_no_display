@@ -9,7 +9,7 @@ layers:
   - T
   - Y
   - U
-  - {t: I, h: Ctl+ I}
+  - I
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -31,17 +31,17 @@ layers:
   - X
   - C
   - V
-  - {t: B, h: Ctl+ B}
+  - B
   - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-option$$
-  - NUMBER
+  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: FN}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - NUMBER
   NUMBER:
   - $$mdi:keyboard-esc$$
