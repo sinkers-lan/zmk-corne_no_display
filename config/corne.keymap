@@ -83,10 +83,10 @@
 
         direction_layer {
             bindings = <
-&kp ESC  &kp PAGE_DOWN     &kp UP    &kp PAGE_UP        &none      &none    &none  &none  &none  &none          &none     &none
-&none    &kp LEFT          &kp DOWN  &kp RIGHT          &kp ENTER  &none    &none  &none  &none  &kp PAGE_DOWN  &kp UP    &kp PAGE_UP
-&none    &kp LEFT_BRACKET  &none     &kp RIGHT_BRACKET  &none      &none    &none  &none  &none  &kp LEFT       &kp DOWN  &kp RIGHT
-                                     &none              &none      &none    &none  &none  &none
+&kp ESC  &kp PAGE_DOWN     &kp UP     &kp PAGE_UP        &none  &none    &none  &none  &none  &none          &none     &none
+&none    &kp LEFT          &kp DOWN   &kp RIGHT          &none  &none    &none  &none  &none  &kp PAGE_DOWN  &kp UP    &kp PAGE_UP
+&none    &kp LEFT_BRACKET  &kp ENTER  &kp RIGHT_BRACKET  &none  &none    &none  &none  &none  &kp LEFT       &kp DOWN  &kp RIGHT
+                                      &none              &none  &none    &none  &none  &none
             >;
 
             label = "DIRECTION";
