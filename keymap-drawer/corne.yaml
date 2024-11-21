@@ -131,9 +131,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   DIRECTION:
   - $$mdi:keyboard-esc$$
-  - PgDn
-  - $$mdi:arrow-up-bold$$
   - PgUp
+  - $$mdi:arrow-up-bold$$
+  - PgDn
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -151,9 +151,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - PgDn
-  - $$mdi:arrow-up-bold$$
   - PgUp
+  - $$mdi:arrow-up-bold$$
+  - PgDn
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '[', s: '{'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
