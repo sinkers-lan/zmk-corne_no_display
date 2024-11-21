@@ -83,9 +83,9 @@
 
         left_hand_layer {
             bindings = <
-&kp ESC  &kp PAGE_DOWN  &kp UP    &kp PAGE_UP  &none  &none    &none  &none  &none  &none  &none  &none
-&none    &kp LEFT       &kp DOWN  &kp RIGHT    &none  &none    &none  &none  &none  &none  &none  &none
-&none    &none          &none     &none        &none  &none    &none  &none  &none  &none  &none  &none
+&kp ESC  &kp PAGE_DOWN  &kp UP    &kp PAGE_UP  &none  &none    &none  &none  &none  &none          &none     &none
+&none    &kp LEFT       &kp DOWN  &kp RIGHT    &none  &none    &none  &none  &none  &kp PAGE_DOWN  &kp UP    &kp PAGE_UP
+&none    &none          &none     &none        &none  &none    &none  &none  &none  &kp LEFT       &kp DOWN  &kp RIGHT
                                   &none        &none  &none    &none  &none  &none
             >;
 
@@ -94,10 +94,10 @@
 
         F_layer {
             bindings = <
-&kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F4             &kp F5             &kp F8                &kp F9                &kp F10       &kp F11     &kp F12  &kp PRINTSCREEN
-&trans      &kp F4  &kp F5  &kp F6  &kp K_MUTE         &kp F6             &kp F7                &out OUT_BLE          &bt BT_SEL 0  &bt BT_CLR  &none    &trans
-&trans      &kp F7  &kp F8  &kp F7  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none         &none       &none    &trans
-                            &trans  &trans             &trans             &trans                &trans                &trans
+&kp F12  &kp F1  &kp F2  &kp F3   &kp F4             &kp F5             &kp F8                &kp F9                &kp F10       &kp F11     &kp F12  &kp PRINTSCREEN
+&trans   &kp F4  &kp F5  &kp F6   &kp K_MUTE         &kp F6             &kp F7                &out OUT_BLE          &bt BT_SEL 0  &bt BT_CLR  &none    &trans
+&trans   &kp F7  &kp F8  &kp F9   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none         &none       &none    &trans
+                         &kp F10  &kp F11            &trans             &trans                &trans                &trans
             >;
 
             label = "FN";
