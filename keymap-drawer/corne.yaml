@@ -41,7 +41,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: FN}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:keyboard-space$$
   - NUMBER
   NUMBER:
   - {t: '$$mdi:keyboard-esc$$', type: held}
@@ -82,7 +82,7 @@ layers:
   - {t: /, s: '?'}
   - '0'
   - {t: '$$mdi:keyboard-return$$', type: held alternate}
-  - KP DOT
+  - .
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
