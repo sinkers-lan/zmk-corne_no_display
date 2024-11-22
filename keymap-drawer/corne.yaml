@@ -42,7 +42,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: FN}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - {t: '$$mdi:keyboard-space$$', h: DIRECTION}
-  - NUMBER
+  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   NUMBER:
   - {t: '$$mdi:keyboard-esc$$', type: held}
   - '1'
@@ -100,9 +100,9 @@ layers:
   - +
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $
+  - '%'
+  - ^
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - ^
   - '&'
@@ -112,8 +112,8 @@ layers:
   - ':'
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&'
+  - '*'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
