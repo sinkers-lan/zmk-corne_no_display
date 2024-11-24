@@ -179,11 +179,11 @@ layers:
   - F3
   - F11
   - F12
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - BT CLR ALL
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - OUT BLE
+  - OUT USB
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
   - F4
@@ -191,10 +191,10 @@ layers:
   - F6
   - MUTE
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - MUTE
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - OUT BLE
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - BT CLR ALL
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
