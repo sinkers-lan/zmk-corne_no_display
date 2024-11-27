@@ -59,8 +59,8 @@
             bindings = <
 &kp ESC  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5    &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &kp MINUS  &kp EQUAL      &kp BACKSPACE
 &trans   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSPACE  &kp NUMBER_6    &kp NUMBER_7  &kp GRAVE     &kp LBKT       &kp RBKT   &kp SEMICOLON  &kp SQT
-&trans   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DELETE     &none           &none         &none         &kp BACKSLASH  &kp COMMA  &kp DOT        &kp SLASH
-                                     &kp NUMBER_0  &kp ENTER      &kp PERIOD      &trans        &trans        &trans
+&trans   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DELETE     &kp DOT         &none         &none         &kp BACKSLASH  &kp COMMA  &kp DOT        &kp SLASH
+                                     &kp NUMBER_0  &kp DOT        &kp ENTER       &trans        &trans        &trans
             >;
         };
 
