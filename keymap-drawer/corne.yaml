@@ -73,7 +73,7 @@ layers:
   - '8'
   - '9'
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ., s: '>'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: \, s: '|'}
@@ -81,8 +81,8 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - '0'
-  - {t: '$$mdi:keyboard-return$$', type: held alternate}
-  - .
+  - {t: ., s: '>', type: held alternate}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
