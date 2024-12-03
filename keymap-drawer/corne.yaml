@@ -74,8 +74,8 @@ layers:
   - '9'
   - $$mdi:backspace-reverse-outline$$
   - {t: ., s: '>'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: \, s: '|'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
