@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   QWERTY:
-  - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
+  - {t: '$$mdi:keyboard-tab$$', h: FN}
   - Q
   - W
   - E
@@ -40,11 +40,11 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: DIRECTION}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
-  - {t: GLOBE, h: FN}
+  - GLOBE
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   NUMBER:
-  - {t: '$$mdi:keyboard-esc$$', type: held}
+  - $$mdi:keyboard-esc$$
   - '1'
   - '2'
   - '3'
@@ -81,7 +81,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - '0'
-  - {t: ., s: '>', type: held alternate}
+  - {t: ., s: '>', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
@@ -173,7 +173,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   FN:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', type: held}
   - F1
   - F2
   - F3
@@ -212,6 +212,6 @@ layers:
   - F10
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
