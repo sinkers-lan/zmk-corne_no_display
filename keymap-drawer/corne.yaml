@@ -40,7 +40,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: DIRECTION}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
-  - GLOBE
+  - {t: '$$mdi:keyboard-space$$', h: FN}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   NUMBER:
@@ -56,7 +56,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - $$mdi:backspace-reverse-outline$$
-  - GLOBE
+  - {t: Alt+ ;, s: 'Alt+ :'}
   - '4'
   - '5'
   - '6'
@@ -99,7 +99,7 @@ layers:
   - _
   - +
   - $$mdi:backspace-reverse-outline$$
-  - GLOBE
+  - {t: Alt+ ;, s: 'Alt+ :'}
   - $
   - '%'
   - ^
@@ -142,7 +142,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - GLOBE
+  - {t: Alt+ ;, s: 'Alt+ :'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -185,7 +185,7 @@ layers:
   - OUT USB
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - PRINTSCREEN
-  - GLOBE
+  - {t: Alt+ ;, s: 'Alt+ :'}
   - F4
   - F5
   - F6
@@ -212,6 +212,6 @@ layers:
   - F10
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
