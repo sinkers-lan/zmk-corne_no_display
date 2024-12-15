@@ -75,10 +75,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE         &kp EXCL  &kp AT     &kp HASH   &kp DLLR  &kp PRCNT    &kp STAR  &kp LPAR   &kp RPAR  &kp UNDERSCORE  &kp PLUS   &kp DEL
-&kp LA(SEMICOLON)  &kp DLLR  &kp PRCNT  &kp CARET  &none     &kp CARET    &kp AMPS  &kp TILDE  &kp LBRC  &kp RBRC        &kp COLON  &kp DQT
-&kp LEFT_COMMAND   &kp AMPS  &kp STAR   &kp LPAR   &none     &none        &kp LEFT  &kp RIGHT  &kp PIPE  &kp LT          &kp GT     &kp QMARK
-                                        &kp RPAR   &trans    &trans       &trans    &none      &none
+&kp ESCAPE         &kp EXCL  &kp AT     &kp HASH   &kp LC(MINUS)  &kp LC(PLUS)    &kp STAR  &kp LPAR   &kp RPAR  &kp UNDERSCORE  &kp PLUS   &kp DEL
+&kp LA(SEMICOLON)  &kp DLLR  &kp PRCNT  &kp CARET  &none          &none           &kp AMPS  &kp TILDE  &kp LBRC  &kp RBRC        &kp COLON  &kp DQT
+&kp LEFT_COMMAND   &kp AMPS  &kp STAR   &kp LPAR   &none          &none           &kp LEFT  &kp RIGHT  &kp PIPE  &kp LT          &kp GT     &kp QMARK
+                                        &kp RPAR   &trans         &trans          &trans    &none      &none
             >;
         };
 
