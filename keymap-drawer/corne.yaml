@@ -91,8 +91,8 @@ layers:
   - '!'
   - '@'
   - '#'
-  - $
-  - '%'
+  - {t: Ctl+ -, s: Ctl+ _}
+  - Ctl+ +
   - '*'
   - (
   - )
@@ -104,7 +104,7 @@ layers:
   - '%'
   - ^
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - ^
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&'
   - '~'
   - '{'
