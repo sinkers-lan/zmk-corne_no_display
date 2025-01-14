@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: 'Ctl+$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - A
   - S
   - D
@@ -56,7 +56,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - $$mdi:backspace-reverse-outline$$
-  - {t: Alt+ ;, s: 'Alt+ :'}
+  - {t: Alt+;, s: 'Alt+:'}
   - '4'
   - '5'
   - '6'
@@ -91,15 +91,15 @@ layers:
   - '!'
   - '@'
   - '#'
-  - {t: Ctl+ -, s: Ctl+ _}
-  - Ctl+ +
+  - {t: Ctl+-, s: Ctl+_}
+  - Ctl++
   - '*'
   - (
   - )
   - _
   - +
   - $$mdi:backspace-reverse-outline$$
-  - {t: Alt+ ;, s: 'Alt+ :'}
+  - {t: Alt+;, s: 'Alt+:'}
   - $
   - '%'
   - ^
@@ -142,7 +142,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Alt+ ;, s: 'Alt+ :'}
+  - {t: Alt+;, s: 'Alt+:'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -185,7 +185,7 @@ layers:
   - OUT USB
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - PRINTSCREEN
-  - {t: Alt+ ;, s: 'Alt+ :'}
+  - {t: Alt+;, s: 'Alt+:'}
   - F4
   - F5
   - F6
@@ -201,8 +201,8 @@ layers:
   - F7
   - F8
   - F9
-  - Ctl+ Ins
-  - Ctl+Sft+ Ins
+  - Ctl+Ins
+  - Ctl+Sft+Ins
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
   - RGB OFF
