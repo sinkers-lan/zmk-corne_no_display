@@ -58,7 +58,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESC            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS      &kp PLUS     &none     &kp LPAR   &kp RPAR       &kp MINUS  &kp EQUAL      &kp DELETE
+&kp ESC            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS      &kp PLUS     &kp STAR  &kp LPAR   &kp RPAR       &kp MINUS  &kp EQUAL      &kp DELETE
 &kp LA(SEMICOLON)  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSPACE  &kp EQUAL    &none     &kp GRAVE  &kp LBKT       &kp RBKT   &kp SEMICOLON  &kp SQT
 &kp LEFT_COMMAND   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DELETE     &kp DOT      &kp LEFT  &kp RIGHT  &kp BACKSLASH  &kp COMMA  &kp DOT        &kp SLASH
                                                &kp NUMBER_0  &kp DOT        &kp ENTER    &trans    &trans     &trans
