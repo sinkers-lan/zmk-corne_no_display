@@ -115,8 +115,8 @@ layers:
   - '&'
   - '*'
   - (
-  - Ctl+C
-  - Ctl+V
+  - C
+  - V
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
   - '|'
